@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="/js/main.js" defer></script>
+
+    <title>My Personal Website</title>
+  </head>
+
+  <body>
+    <nav></nav>
+
+    <main id="container">
+      <div class="sub-container" id="image-container">
+        <img
+          src="/assets/images/my-HNG11-pic2.png"
+          alt="SlackProfilePics"
+          data-testid="slackProfilePicture"
+        />
+
+        <div id="info-container">
+          <h1
+            data-testid="slackDisplayName"
+            id="slackName"
+            class="profile-details"
+          >
+            <span id="slackNameSpan">Slack Name:</span>
+            <span>Ogbu Casmir Chika</span>
+          </h1>
+
+          <p data-testid="slackEmail" class="profile-details">
+            <span>Slack Email:</span>
+            <span id="span-email" class="font-18">ogbuchika71@gmail.com</span>
+          </p>
+
+          <p data-testid="currentDay" class="profile-details" id="day">
+            <span>Current Day:</span>
+            <span id="span-day" class="font-18"></span>
+          </p>
+
+          <p data-testid="currentTimeUTC" class="profile-details">
+            <span>Current Time:</span>
+            <span id="span-time" class="font-18"></span>
+          </p>
+        </div>
+
+        <div id="linksContainer">
+          <a href="http://hng.tech/learn" data-testid="hngLink" target="_blank">Check Out HNG Learning Page</a>
+          <a href="http://keyword.dog/" data-testid="keywordLink" target="_blank">Check Out Keyword Website</a>
+          <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink" target="_blank">Check Out Scrape Any Website</a>
+        </div>
+      </div>
+
+      <div class="sub-container" id="text-container">
+        <h1>My clearly outlined tech goals for the next 2 years:</h1>
+        <section>
+          <h2>Year 1: Foundation and Skill Enhancement</h2>
+          <div>
+            <h3>1. Master Frontend Technologies</h3>
+            <ul>
+              <li>
+                <h4>Learn React and Redux:</h4>
+                <ul>
+                  <li>
+                    Complete advanced tutorials and build several projects.
+                  </li>
+                  <li>Contribute to open-source projects.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Master CSS and SCSS:</h4>
+                <ul>
+                  <li>Focus on creating responsive designs.</li>
+                  <li>Learn advanced CSS animations and transitions.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>2. Backend Development</h3>
+            <ul>
+              <li>
+                <h4>Learn Node.js and Express.js:</h4>
+                <ul>
+                  <li>
+                    Build a full-stack application using MERN stack (MongoDB, Express, React, Node.js).
+                  </li>
+                  <li>Understand RESTful APIs and GraphQL.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Database Management:</h4>
+                <ul>
+                  <li>Master MongoDB and basic SQL.</li>
+                  <li>Learn about data modeling and database optimization.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>3. DevOps and Deployment</h3>
+            <ul>
+              <li>
+                <h4>Learn Docker:</h4>
+                <ul>
+                  <li>
+                    Understand containerization and how to deploy applications using Docker.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>CI/CD Pipelines:</h4>
+                <ul>
+                  <li>Familiarize myself with Jenkins, GitHub Actions, and GitLab CI.</li>
+                  <li>Automate testing and deployment processes.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>4. Soft Skills and Professional Development</h3>
+            <ul>
+              <li>
+                <h4>Networking and Community Engagement:</h4>
+                <ul>
+                  <li>
+                    Attend tech meetups, conferences, and webinars.
+                  </li>
+                  <li>Contribute to online tech communities.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Technical Writing:</h4>
+                <ul>
+                  <li>Write technical articles or start a blog.</li>
+                  <li>Share knowledge and projects on platforms like GitHub.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Year 2: Advanced Topics and Specialization</h2>
+          <div>
+            <h3>1. Deepen Frontend Expertise</h3>
+            <ul>
+              <li>
+                <h4>Learn Next.js:</h4>
+                <ul>
+                  <li>
+                    Focus on server-side rendering and static site generation.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Progressive Web Apps (PWAs):</h4>
+                <ul>
+                  <li>Build and deploy a PWA.</li>
+                  <li>Learn about service workers and offline capabilities.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>2. Advanced Backend and Microservices</h3>
+            <ul>
+              <li>
+                <h4>Microservices Architecture:</h4>
+                <ul>
+                  <li>
+                    Learn about building and deploying microservices.
+                  </li>
+                  <li>
+                    Explore tools like Kubernetes for container orchestration.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Advanced Database Concepts:</h4>
+                <ul>
+                  <li>
+                    Learn about database scaling, indexing, and caching.
+                  </li>
+                  <li>
+                    Explore NoSQL databases beyond MongoDB (e.g., Redis, Cassandra).
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>3. Cloud and Serverless Computing</h3>
+            <ul>
+              <li>
+                <h4>Learn AWS/GCP/Azure:</h4>
+                <ul>
+                  <li>
+                    Get certified in one of the major cloud platforms.
+                  </li>
+                  <li>
+                    Understand cloud infrastructure, services, and deployment strategies.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Serverless Architecture:</h4>
+                <ul>
+                  <li>
+                    Explore AWS Lambda, Google Cloud Functions, or Azure Functions.
+                  </li>
+                  <li>
+                    Build and deploy serverless applications.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>4. Artificial Intelligence and Machine Learning</h3>
+            <ul>
+              <li>
+                <h4>Basic Machine Learning Concepts:</h4>
+                <ul>
+                  <li>
+                    Learn about the basics of machine learning and AI.
+                  </li>
+                  <li>
+                    Experiment with simple ML models using TensorFlow or PyTorch.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h4>Integration with Frontend:</h4>
+                <ul>
+                  <li>
+                    Build applications that leverage AI/ML for enhanced user experience.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Continuous Goals</h2>
+          <div>
+            <h4>Stay Updated:</h4>
+            <ul>
+              <li>Follow tech blogs, podcasts, and news to stay current with industry trends.</li>
+              <li>Participate in continuous learning through online courses and certifications.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Portfolio and Personal Projects:</h4>
+            <ul>
+              <li>Maintain a portfolio showcasing your projects and skills.</li>
+              <li>Regularly update GitHub with new projects and improvements to existing ones.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Mentorship and Teaching:</h4>
+            <ul>
+              <li>Mentor junior developers or peers.</li>
+              <li>Conduct workshops or webinars to share your knowledge.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
