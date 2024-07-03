@@ -348,6 +348,11 @@ img {
   }
 }
 
+#linksContainer a:nth-child(2),
+#linksContainer a:last-child{
+  margin-top: 8px;
+}
+
 #text-container {
   padding-left: 20px;
   border-top: 1px solid rgb(181, 180, 180);
