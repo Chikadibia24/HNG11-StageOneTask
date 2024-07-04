@@ -364,10 +364,16 @@ img {
   /* height: 100vh;
   overflow-y: scroll; */
   background-color: rgb(69,69,69);
-  color: rgb(252, 250, 222);
+  /* color: rgb(252, 250, 222); */
+   color: rgb(181, 180, 180);
   width: 100%;
   border-radius: 10px;
   padding-left: 20px;
+}
+
+hr{
+  /* color: rgb(181, 180, 180); */
+  color: rgb(181, 180, 180);
 }
 
 #text-container h1 {
@@ -397,7 +403,8 @@ footer {
 }
 
 #footer-contacts-container {
-  color: rgb(252, 250, 222);
+  /* color: rgb(252, 250, 222); */
+   color: rgb(181, 180, 180);
   font-size: 20px;
 }
 
