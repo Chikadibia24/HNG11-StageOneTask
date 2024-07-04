@@ -296,10 +296,16 @@ main {
   width: 100%;
 }
 
-#image-container {
+#profile-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  min-width: 372px;
+  padding-left: 5px;
+}
+
+#image-container{
+  align-self: center;
 }
 
 img {
@@ -439,8 +445,9 @@ footer {
     display: none;
   }
 
-  #image-container {
-    justify-content: center;
+  #profile-container {
+    width: 100%;
+     padding-left: 0;
   }
 
   #linksContainer,
@@ -462,6 +469,7 @@ footer {
   }
 
   #text-container{
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
   }
